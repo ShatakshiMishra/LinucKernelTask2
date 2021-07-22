@@ -1,5 +1,6 @@
 #include "head.h"
 #define RD_DATA _IOR('a','b',int32_t*)
+
 int main()
 {
         int fd,num;
