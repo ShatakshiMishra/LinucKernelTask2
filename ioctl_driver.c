@@ -71,6 +71,7 @@ static void simple_char_exit(void)
         printk(KERN_INFO "UNLOAD");
         unregister_chrdev(100,"Mydriver2");
 }
+
 module_init(simple_char_init);
 module_exit(simple_char_exit);
                           
