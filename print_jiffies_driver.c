@@ -47,6 +47,7 @@ return 0;
 }
 struct file_operations ex04_file_ops=
 {
+ 
         .owner=THIS_MODULE,
         .open =ex04_open,
         .read =ex04_read,
