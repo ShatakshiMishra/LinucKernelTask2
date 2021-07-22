@@ -22,4 +22,5 @@ printf("reading from driver \n");
  printf("closing driver\n");
  close(fd);
 return 0;
+        
 }
